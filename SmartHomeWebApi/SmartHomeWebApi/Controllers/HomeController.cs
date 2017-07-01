@@ -15,15 +15,15 @@ namespace SmartHomeWebApi.Controllers
 {
     public class HomeController : Controller
     {
-        private static string UUID= "f3d1d52b-6eb0-fdaf-b51c-1ade24648c14";
+        private static string UUID= "";
         private static string maj = "1";
         private static string min = "3";
-        private static string uname = "sumeyye";
-        private static string password = "789456";
-        private string cloudmqtt_connectionString = "m13.cloudmqtt.com:11693";
-        private string cloudmqtt_username = "eptdtnhw";
-        private string cloudmqtt_password = "5TZ29zFogp_A";
-        private string ClientId = "smarthome";
+        private static string uname = "";
+        private static string password = "";
+        private string cloudmqtt_connectionString = "";
+        private string cloudmqtt_username = "";
+        private string cloudmqtt_password = "";
+        private string ClientId = "";
 
        
         public ActionResult GetName() {
@@ -55,8 +55,8 @@ namespace SmartHomeWebApi.Controllers
         }
         public string SendNotification(string deviceId, string message)
         {
-            string SERVER_API_KEY = "AAAAm00_1m4:APA91bGk9PTcpufeSOvUbsvmWQfBff0NsvmPHVgEN9m47yj-408FvQ39CLIUuyQjFuBG9xW77yrpMrb2RC4RdV49U99PvJVQKnDv6fMfBRSSOzDyhpbQxbn1hn0aE9Db52kEt5wYjBhL";
-            var SENDER_ID = "667015960174";
+            string SERVER_API_KEY = "";
+            var SENDER_ID = "";
             var value = message;
             WebRequest tRequest;
             tRequest = WebRequest.Create("https://fcm.googleapis.com/fcm/send");
