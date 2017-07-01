@@ -13,8 +13,8 @@ void setup() {
   delay(50);
   Serial.println("Client Started");
   myservo.attach(3);
-  SWifi.Ssid="elif";
-  SWifi.Pass="elifesrg";
+  SWifi.Ssid="";
+  SWifi.Pass="";
   SWifi.SubscribeTopic="/smartgarage";
   SWifi.PublishTopic="/smartgarage";
   
