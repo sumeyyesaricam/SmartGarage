@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "398099037321",
+    "firebase_url": "https://garage-271a1.firebaseio.com",
+    "project_id": "garage-271a1",
+    "storage_bucket": "garage-271a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398099037321:android:5cfb2e7727187e59",
+        "android_client_info": {
+          "package_name": "sau.smartgarage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398099037321-qi4mi86r02ehb4dtrsqku2k21krei4ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnBtfhUKc5u2IUPMziHZh0c2TBEXHRSAg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
